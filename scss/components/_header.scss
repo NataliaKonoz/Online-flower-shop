@@ -1,0 +1,34 @@
+.header {
+  &__global-nav {
+    background-color: var(--black-color);
+  }
+
+  &__global-menu {
+    font-size: 12px;
+  }
+
+  &__global-menu-item {
+    color: var(--white-color);
+
+    &--pale-pink {
+      color: var(--pale-pink-color);
+    }
+  }
+
+  &__global-menu-icon {
+    width: 14px;
+    height: 14px;
+
+    &--down {
+      fill: var(--white-color);
+    }
+  }
+
+  &__global-menu-select {
+    background: transparent;
+    color: var(--pale-pink-color);
+    border: none;
+    appearance: none;
+    cursor: pointer;
+  }
+}

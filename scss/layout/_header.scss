@@ -1,0 +1,49 @@
+.header {
+  &__global-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 0;
+  }
+
+  &__global-menu-item {
+    display: flex;
+
+    &--overnight-delivery {
+      padding-right: 16px;
+    }
+
+    &--shops {
+      padding: 0 40px;
+    }
+
+    &--currency {
+      padding-right: 60px;
+    }
+
+    &--delivery {
+      padding: 0 30px;
+    }
+
+    &--contacts {
+      padding-right: 78px;
+    }
+
+    &--languages {
+      padding: 0 50px;
+    }
+  }
+
+  &__global-menu-link {
+    display: flex;
+  }
+
+  &__global-menu-icon {
+    margin-right: 4px;
+
+    &--info {
+      margin-right: 0;
+      margin-left: 4px;
+    }
+  }
+}

@@ -8,7 +8,8 @@
 
 body {
   font-family: 'Museo-Sans-Cyrl', sans-serif;
-  color: var(--text-color);
+  color: var(--black-color);
+  line-height: 1.2;
 }
 
 a {
@@ -18,4 +19,12 @@ a {
 
 button {
   cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  font-size: 16px;
 }
