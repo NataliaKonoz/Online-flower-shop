@@ -13,6 +13,14 @@
     &--pale-pink {
       color: var(--pale-pink-color);
     }
+
+    &--overnight-delivery {
+      background-color: var(--dark-black-color);
+    }
+
+    &--corporate-clients {
+      font-weight: 600;
+    }
   }
 
   &__global-menu-icon {

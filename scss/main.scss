@@ -1,7 +1,10 @@
+// Базові стилі та утиліти
 @import '../scss/base/_font.scss';
 @import '../scss/base/_global.scss';
 @import '../scss/base/_variable.scss';
 
+// Стилі компонентів
 @import '../scss/components/_header.scss';
 
+// Стилі компонування
 @import '../scss/layout/_header.scss';

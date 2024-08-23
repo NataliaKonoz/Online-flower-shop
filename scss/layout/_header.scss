@@ -3,14 +3,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 4px 0;
   }
 
   &__global-menu-item {
     display: flex;
+    padding: 4px 0;
 
     &--overnight-delivery {
-      padding-right: 16px;
+      padding-left: 10px;
+      padding-right: 8px;
+    }
+
+    &--pale-pink {
+      padding-left: 18px;
     }
 
     &--shops {
