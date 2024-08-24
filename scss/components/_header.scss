@@ -63,4 +63,16 @@
     background-color: var(--black-color);
     color: var(--white-color);
   }
+
+  &__product-menu-item {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.1;
+    letter-spacing: 1px;
+
+    &--shares {
+      color: var(--pink-color);
+    }
+  }
 }

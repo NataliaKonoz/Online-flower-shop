@@ -90,4 +90,15 @@
   &__user-menu-basket-count {
     padding: 8px;
   }
+
+  &__product-menu {
+    display: flex;
+    justify-content: center;
+    padding-top: 24px;
+    padding-bottom: 18px;
+  }
+
+  &__product-menu-item {
+    padding-right: 83px;
+  }
 }
