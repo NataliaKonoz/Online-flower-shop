@@ -23,20 +23,44 @@
     }
   }
 
-  &__global-menu-icon {
-    width: 14px;
-    height: 14px;
-
-    &--down {
-      fill: var(--white-color);
-    }
-  }
-
   &__global-menu-select {
     background: transparent;
     color: var(--pale-pink-color);
     border: none;
     appearance: none;
     cursor: pointer;
+  }
+
+  &__content {
+    max-width: 1520px;
+  }
+
+  &__contact-text {
+    font-size: 13px;
+    color: var(--pale-pink-color);
+  }
+
+  &__logo-text {
+    font-size: 20px;
+    line-height: 0.7;
+    letter-spacing: 4px;
+    max-width: 134px;
+    text-transform: uppercase;
+  }
+
+  &__logo-subtext {
+    font-size: 8px;
+    letter-spacing: 5px;
+  }
+
+  &__user-menu {
+    font-size: 14px;
+  }
+
+  &__user-menu-basket-count {
+    font-size: 13px;
+    border-radius: 50%;
+    background-color: var(--black-color);
+    color: var(--white-color);
   }
 }

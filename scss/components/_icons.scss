@@ -1,0 +1,20 @@
+.header {
+  &__small-icon {
+    width: 14px;
+    height: 14px;
+
+    &--white {
+      fill: var(--white-color);
+    }
+  }
+
+  &__user-menu-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  &__logo-icon {
+    width: 53px;
+    height: 53px;
+  }
+}

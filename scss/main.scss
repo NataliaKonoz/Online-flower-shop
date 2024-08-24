@@ -1,10 +1,13 @@
-// Базові стилі та утиліти
+// Basic styles and utilities
 @import '../scss/base/_font.scss';
 @import '../scss/base/_global.scss';
 @import '../scss/base/_variable.scss';
 
-// Стилі компонентів
+// Component styles
 @import '../scss/components/_header.scss';
+@import '../scss/components/_icons.scss';
 
-// Стилі компонування
+// Layout styles
+@import '../scss/layout/_buttons.scss';
 @import '../scss/layout/_header.scss';
+@import '../scss/layout/_icons.scss';

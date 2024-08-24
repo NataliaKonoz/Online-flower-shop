@@ -47,12 +47,47 @@
     margin-right: 4px;
   }
 
-  &__global-menu-icon {
-    margin-right: 4px;
+  &__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    margin: 0 auto;
+  }
 
-    &--info {
-      margin-right: 0;
-      margin-left: 4px;
+  &__contact-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 170px;
+    flex-grow: 1.1;
+  }
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+
+  &__user-nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__user-menu {
+    display: flex;
+    align-items: center;
+  }
+
+  &__user-menu-item {
+    &--personal-office {
+      padding-left: 104px;
+      padding-right: 40px;
     }
+  }
+
+  &__user-menu-basket-count {
+    padding: 8px;
   }
 }
